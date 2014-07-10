@@ -1,7 +1,7 @@
 %% -*- mode: erlang -*-
-{application, example_project,
+{application, ht,
  [
-  {description, "Example Concrete generator project"},
+  {description, "ht - a third generation microwebserver derived from htstub and vinoski's gist"},
   {vsn, "0.0.1"},
   {registered, []},
   {applications, [
