@@ -1,7 +1,7 @@
 ht
 ==
 
-A third generation micro-webserver, designed for high throughput and programmer convenience.
+A third generation micro-webserver, designed for high throughput and programmer convenience.  Derived from [htstub](https://github.com/StoneCypher/htstub) and [Vinoski's gist](https://gist.github.com/vinoski/4996859).
 
 
 
