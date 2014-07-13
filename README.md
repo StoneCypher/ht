@@ -48,4 +48,4 @@ Copyright (c) 2014 John Haugeland.  All rights reserved.
 Polemic :neckbeard:
 -------------------
 
-`t` is MIT licensed, because viral licenses and newspeak language modification are evil.  Free is ***only*** free when it's free for everyone.
+`ht` is MIT licensed, because viral licenses and newspeak language modification are evil.  Free is ***only*** free when it's free for everyone.
