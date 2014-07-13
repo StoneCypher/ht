@@ -1,4 +1,8 @@
 
+%% @doc `ht' - a micro-webserver oriented towards programmer convenience and speed.  Descends from 
+%% <a href="https://github.com/StoneCypher/htstub/">htstub</a> and 
+%% <a href="https://gist.github.com/vinoski/4996859">Vinoski's gist</a>.  MIT licensed.
+
 -module(ht).
 
 
@@ -16,27 +20,11 @@
 
 
 
--record(ht_options, {
-
-} ).
-
-
-
-
-
 -spec stub(Config :: function() | record() | list()) -> pid() | { error, any() }.
 
 stub(Proplist) when is_list(Proplist) ->
 
-    stub(#ht_options{  });
-
-
-
-
-
-stub(Proplist) when is_record(Proplist, ht_options) ->
-
-    stub(#ht_options{  });
+    stub_serve( todo );
 
 
 
@@ -44,7 +32,7 @@ stub(Proplist) when is_record(Proplist, ht_options) ->
 
 stub(Handler) when is_function(Handler) ->
 
-    stub(#ht_options{  }).
+    stub_serve( todo ).
 
 
 
@@ -54,4 +42,12 @@ stub(Handler) when is_function(Handler) ->
 
 stub(Handler, Port) when is_function(Handler), is_integer(Port), Port >= 0 ->
 
-    stub(#ht_options{  }).
+    stub_serve( todo ).
+
+
+
+
+
+stub_serve(_) -> 
+
+    { whargarbl, todo }.
